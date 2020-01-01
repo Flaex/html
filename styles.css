@@ -1,0 +1,29 @@
+* {margin: 0; padding: 0}
+
+body {font-family: 'Ubuntu Condensed', sans-serif; background-color: #1a1a1a}
+
+.container { width: 800px; height: 600px;background-image:url(bg.jpg); padding: 0.5%; margin: 2.5% auto}
+
+ul { list-style: none; padding: 0}
+
+nav { margin-top: 2.5%; margin-bottom: 1%}
+
+nav ul li { display: inline-block; margin-right: 3%;}
+
+nav ul li a { text-decoration: none; color:#1a1a1a; }
+
+nav ul li.active {background-color: #1a1a1a; padding: 0.75% 2% 0.75% 2% }
+
+nav ul li.active a{color:white}
+
+ul.lista li { display: inline-block; margin: 2.5% 0 3% 0}
+
+ul.lista li img { float: left; padding-right: 1%}
+
+ul.lista li > div { box-sizing: content-box;padding-right: 1% }
+
+ul.lista li h2 { padding-bottom: 0.35%}
+
+ul.lista li p { line-height: 1.35em}
+
+button {font-family: 'Ubuntu Condensed', sans-serif; background-color: #1a1a1a; border: none; color: white; cursor: pointer; padding:0.75%; margin-top: 0.8%}
